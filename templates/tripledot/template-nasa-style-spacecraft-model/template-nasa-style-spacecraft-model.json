@@ -1,0 +1,168 @@
+{
+    "metadata": {
+        "id": "template-nasa-style-spacecraft-model",
+        "name": "Template: NASA-Style Spacecraft Model"
+    },
+    "model": [
+        {
+            "id": "model",
+            "name": "Model",
+            "value": "",
+            "parent": null,
+            "type": "td.model",
+            "documentation": "",
+            "custom": {},
+            "archived": false
+        },
+        {
+            "id": "__data__",
+            "name": ".data",
+            "value": "",
+            "parent": "model",
+            "type": "td.model.package",
+            "documentation": "",
+            "custom": {},
+            "archived": false
+        },
+        {
+            "id": "__holding_bin__",
+            "name": ".holding bin",
+            "value": "",
+            "parent": "model",
+            "type": "td.model.package",
+            "documentation": "",
+            "custom": {},
+            "archived": false
+        },
+        {
+            "id": "__dne__",
+            "name": "Does Not Exist",
+            "value": "",
+            "parent": "__data__",
+            "type": "td.vertex",
+            "documentation": "",
+            "custom": {},
+            "archived": false
+        },
+        {
+            "id": "__typedefs__",
+            "name": "typedefs",
+            "value": "",
+            "parent": "__data__",
+            "type": "td.model.package",
+            "documentation": "",
+            "custom": {},
+            "archived": false
+        },
+        {
+            "id": "__readme__",
+            "name": "README",
+            "value": "",
+            "parent": "model",
+            "type": "td.model.text",
+            "documentation": "# NASA-Style Spacecraft Model\n\nThe model structure is based on the NASA WBS provided in the [NASA Cost Estimating Handbook](https://www.nasa.gov/sites/default/files/files/01_CEH_Main_Body_02_27_15.pdf), [Appendix B](https://www.nasa.gov/sites/default/files/files/CEH_AppB.pdf).\n\n\n## Model Structure\n\n- [01 - Project Management](#0481d5a7-813d-bcc3-3e03-30e9cd643283ea78)\n- [02 - Systems Engineering](#1f41183a-4611-6036-0db7-301044bbc6c285f6)\n- [03 - Safety & Mission Assurance](#cf8ed272-40ff-58a7-8aa1-0d6129bebb24a679)\n- [04 - Science & Technology](#5a8b39d9-e501-0b5a-ff7e-73c5730f9a3c882d)\n- [05 - Payload](#13ce49f4-b861-6522-8e4d-fe2db62a85d647eb)\n- [06 - Spacecraft](#52486e53-e759-cd10-f763-213c58364da01937)\n- [07 - Mission Operations](#25aa8292-e2a6-3f3c-b2c3-2004155bf02896c5)\n- [08 - Launch Vehicle](#ee4ee87c-86bf-71ed-4ffd-658114b7ac09610c)\n- [09 - Ground Systems](#6a420d47-da6e-baa6-21c6-dfb6668931872f9f)\n- [10 - Public Outreach](#8f74a947-68e7-4a14-ada5-5f23a971bac5c490)\n\n\n---\n\n## Useful Links\n\n### NASA Resources\n\n- [NASA Systems Engineering Handbook](https://www.nasa.gov/sites/default/files/atoms/files/nasa_systems_engineering_handbook_0.pdf)\n- [Work Breakdown Structure Handbook](https://explorers.larc.nasa.gov/HPMIDEX/pdf_files/08_[NASA_WBS_Handbook_]20180000844.pdf)\n- [Cost Estimating Handbook](https://www.nasa.gov/sites/default/files/files/01_CEH_Main_Body_02_27_15.pdf)\n\n\n### Modeling Resources\n- [Trivium Docs](https://triple.engineering/docs/trivium).",
+            "custom": {},
+            "archived": false
+        },
+        {
+            "id": "0481d5a7-813d-bcc3-3e03-30e9cd643283ea78",
+            "name": "01 - Project Management",
+            "value": "",
+            "parent": "model",
+            "type": "td.model.package",
+            "documentation": "",
+            "custom": {},
+            "archived": false
+        },
+        {
+            "id": "1f41183a-4611-6036-0db7-301044bbc6c285f6",
+            "name": "02 - Systems Engineering",
+            "value": "",
+            "parent": "model",
+            "type": "td.model.package",
+            "documentation": "",
+            "custom": {},
+            "archived": false
+        },
+        {
+            "id": "cf8ed272-40ff-58a7-8aa1-0d6129bebb24a679",
+            "name": "03 - Safety & Mission Assurance",
+            "value": "",
+            "parent": "model",
+            "type": "td.model.package",
+            "documentation": "",
+            "custom": {},
+            "archived": false
+        },
+        {
+            "id": "5a8b39d9-e501-0b5a-ff7e-73c5730f9a3c882d",
+            "name": "04 - Science & Technology",
+            "value": "",
+            "parent": "model",
+            "type": "td.model.package",
+            "documentation": "",
+            "custom": {},
+            "archived": false
+        },
+        {
+            "id": "13ce49f4-b861-6522-8e4d-fe2db62a85d647eb",
+            "name": "05 - Payload",
+            "value": "",
+            "parent": "model",
+            "type": "td.model.package",
+            "documentation": "",
+            "custom": {},
+            "archived": false
+        },
+        {
+            "id": "52486e53-e759-cd10-f763-213c58364da01937",
+            "name": "06 - Spacecraft",
+            "value": "",
+            "parent": "model",
+            "type": "td.model.package",
+            "documentation": "",
+            "custom": {},
+            "archived": false
+        },
+        {
+            "id": "25aa8292-e2a6-3f3c-b2c3-2004155bf02896c5",
+            "name": "07 - Mission Operations",
+            "value": "",
+            "parent": "model",
+            "type": "td.model.package",
+            "documentation": "",
+            "custom": {},
+            "archived": false
+        },
+        {
+            "id": "ee4ee87c-86bf-71ed-4ffd-658114b7ac09610c",
+            "name": "08 - Launch Vehicle",
+            "value": "",
+            "parent": "model",
+            "type": "td.model.package",
+            "documentation": "",
+            "custom": {},
+            "archived": false
+        },
+        {
+            "id": "6a420d47-da6e-baa6-21c6-dfb6668931872f9f",
+            "name": "09 - Ground Systems",
+            "value": "",
+            "parent": "model",
+            "type": "td.model.package",
+            "documentation": "",
+            "custom": {},
+            "archived": false
+        },
+        {
+            "id": "8f74a947-68e7-4a14-ada5-5f23a971bac5c490",
+            "name": "10 - Public Outreach",
+            "value": "",
+            "parent": "model",
+            "type": "td.model.package",
+            "documentation": "",
+            "custom": {},
+            "archived": false
+        }
+    ]
+}
