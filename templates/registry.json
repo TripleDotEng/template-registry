@@ -1,0 +1,12 @@
+[
+	{
+		"id": "tripledot:template-basic",
+		"name": "Basic Model",
+		"description": "A basic model template with a few simple diagrams."
+	},
+	{
+		"id": "tripledot:template-nasa-style-spacecraft-model",
+		"name": "NASA-style Spacecraft Template",
+		"description": ""
+	}
+]
