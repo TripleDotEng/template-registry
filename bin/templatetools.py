@@ -92,7 +92,7 @@ def create_template(args, project):
 		},
 		'model': elements
 	}
-	template_filename = os.path.join(dirname, f'{project["id"]}.json')
+	template_filename = os.path.join(dirname, 'template.json')
 	with open(template_filename, 'w') as f:
 		f.write(json.dumps(template, indent=4))
 
