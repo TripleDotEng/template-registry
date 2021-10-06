@@ -8,5 +8,10 @@
 		"id": "tripledot:template-nasa-style-spacecraft-model",
 		"name": "NASA-style Spacecraft Template",
 		"description": ""
+	},
+	{
+		"id": "tripledot:template-fault-tree-analysis",
+		"name": "Fault Tree Analysis",
+		"description": "A simple fault tree analysis template"
 	}
 ]

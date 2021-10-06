@@ -3,6 +3,10 @@
 This is the [Trivium](https://triple.engineering/products/trivium) model 
 template registry.
 
+## Add a new template
+
+./bin/templatetools.py new --model <orgId:projectId> --name <name> --description <description>
+
 ## Contributing
 
 Currently, the template registry is maintained by Triple Dot Engineering but 
